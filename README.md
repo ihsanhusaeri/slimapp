@@ -3,11 +3,19 @@
 This is a RESTful api built with the SlimPHP framework and uses MySQL for storage.
 
 ### Installation
-composer update
+Create database or import from _sql/slimapp.sql
+
+Install SlimPHP and dependencies
+```sh 
+    composer update
+```
 
 ### Run
 
-php -S localhost:8080
+```sh 
+    cd public
+    php -S localhost:8080 
+```
 
 ### API Endpints
 ```sh
